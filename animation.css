@@ -1,0 +1,371 @@
+.counter-container {
+    /* display: grid; */
+    grid-gap: 2rem;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    margin: auto;
+    max-width: 100%;
+    padding: 2rem;
+}
+
+.counter-card {
+    align-items: center;
+    border-radius: 10px;
+    display: flex;
+    height: 1rem;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+}
+
+.count-numbers {
+    animation: count-numbers 5s linear ;
+    animation-fill-mode: forwards;
+    counter-reset: count 0;
+}
+
+
+
+
+.count-numbers::before {
+    color: #00c2ff;
+    content: counter(count);
+    font-size: 3rem;
+}
+
+@keyframes count-numbers {
+    0% {
+        counter-increment: count 0;
+    }
+
+    50% {
+        counter-increment: count 1;
+    }
+
+    100% {
+        counter-increment: count 2;
+    }
+
+
+}
+
+/* ---------------- */
+.count-numbers42 {
+    animation: count-numbers42 5s linear  forwards;
+    /* background-color: #f3f3f3; */
+    /* color: #00c2ff; */
+    counter-reset: count 0;
+}
+
+.count-numbers42::before {
+    color: #00c2ff;
+    content: counter(count);
+    font-size: 3rem;
+}
+
+@keyframes count-numbers42 {
+    0% {
+        counter-increment: count 0;
+    }
+
+    3.5% {
+        counter-increment: count 1;
+    }
+
+    7% {
+        counter-increment: count 3;
+    }
+
+    10.5% {
+        counter-increment: count 4;
+    }
+
+    14% {
+        counter-increment: count 5;
+    }
+
+    17.5% {
+        counter-increment: count 6;
+    }
+
+    21.5% {
+        counter-increment: count 7;
+    }
+
+    24.5% {
+        counter-increment: count 8;
+    }
+
+    28% {
+        counter-increment: count 9;
+    }
+
+    31.5% {
+        counter-increment: count 10;
+    }
+
+    35% {
+        counter-increment: count 11;
+    }
+
+    38.5% {
+        counter-increment: count 12;
+    }
+
+    42% {
+        counter-increment: count 13;
+    }
+
+    45.5% {
+        counter-increment: count 14;
+    }
+
+    49% {
+        counter-increment: count 15;
+    }
+
+    52.5% {
+        counter-increment: count 16;
+    }
+
+    56% {
+        counter-increment: count 17;
+    }
+          59.5% {
+              counter-increment: count 18;
+          }
+    
+          63% {
+              counter-increment: count 19;
+          }
+    
+          66.5% {
+              counter-increment: count 20;
+          }
+    
+          70% {
+              counter-increment: count 21;
+          }
+    
+          73.5% {
+              counter-increment: count 22;
+          }
+    
+          77% {
+              counter-increment: count 23;
+          }
+    
+          80.5% {
+              counter-increment: count 24;
+          }
+    
+          84% {
+              counter-increment: count 25;
+          }
+    
+          87.5% {
+              counter-increment: count 26;
+          }
+    
+          91% {
+              counter-increment: count 27;
+          }
+    
+          94.5% {
+              counter-increment: count 28;
+          }
+    
+          98% {
+              counter-increment: count 29;
+          }
+    
+          100% {
+              counter-increment: count 30;
+          }
+
+}
+
+
+.count-numbers40 {
+    animation: count-numbers40 5s linear  forwards;
+    /* background-color: #f3f3f3; */
+    /* color: #00c2ff; */
+    counter-reset: count 0;
+}
+
+.count-numbers40::before {
+    color: #00c2ff;
+    content: counter(count);
+    font-size: 3rem;
+}
+
+@keyframes count-numbers40 {
+    0% {
+        counter-increment: count 0;
+    }
+
+    2.5% {
+        counter-increment: count 1;
+    }
+
+    5% {
+        counter-increment: count 3;
+    }
+
+    7.5% {
+        counter-increment: count 4;
+    }
+
+    10% {
+        counter-increment: count 5;
+    }
+
+    12.5% {
+        counter-increment: count 6;
+    }
+
+    15% {
+        counter-increment: count 7;
+    }
+
+    17.5% {
+        counter-increment: count 8;
+    }
+
+    20% {
+        counter-increment: count 9;
+    }
+
+    22.5% {
+        counter-increment: count 10;
+    }
+
+    25% {
+        counter-increment: count 11;
+    }
+
+    27.5% {
+        counter-increment: count 12;
+    }
+
+    30% {
+        counter-increment: count 13;
+    }
+
+    32.5% {
+        counter-increment: count 14;
+    }
+
+    35% {
+        counter-increment: count 15;
+    }
+
+    37.5% {
+        counter-increment: count 16;
+    }
+
+    40% {
+        counter-increment: count 17;
+    }
+
+    40% {
+        counter-increment: count 18;
+    }
+
+    42.5% {
+        counter-increment: count 19;
+    }
+
+    45% {
+        counter-increment: count 20;
+    }
+
+    47.5% {
+        counter-increment: count 21;
+    }
+
+    50% {
+        counter-increment: count 22;
+    }
+
+    52.5% {
+        counter-increment: count 23;
+    }
+
+    55% {
+        counter-increment: count 24;
+    }
+
+    57.5% {
+        counter-increment: count 25;
+    }
+
+    60% {
+        counter-increment: count 26;
+    }
+
+    62.5% {
+        counter-increment: count 27;
+    }
+
+    65% {
+        counter-increment: count 28;
+    }
+
+    67.5% {
+        counter-increment: count 29;
+    }
+
+    70% {
+        counter-increment: count 30;
+    }
+
+    72.5% {
+        counter-increment: count 31;
+    }
+
+    75% {
+        counter-increment: count 32;
+    }
+
+    77.5% {
+        counter-increment: count 33;
+    }
+
+    80% {
+        counter-increment: count 34;
+    }
+       
+    
+         82.5% {
+             counter-increment: count 35;
+         }
+    
+         85% {
+             counter-increment: count 36;
+         }
+    
+         87.5% {
+             counter-increment: count 37;
+         }
+    
+         90% {
+             counter-increment: count 38;
+         }
+    
+         92.5% {
+             counter-increment: count 39;
+         }
+    
+         95% {
+             counter-increment: count 40;
+         }
+    
+         97.5% {
+             counter-increment: count 41;
+         }
+    
+         100% {
+             counter-increment: count 42;
+         }
+
+}
